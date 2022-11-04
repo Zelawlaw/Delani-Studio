@@ -74,7 +74,23 @@ section.page-section#services{
   section.page-section#services {
     padding-top: 17rem;
     padding-bottom: 12.5rem;
+   
   }
-
-
+}
+section.page-section#contact_us{
+  padding-top: 10.5rem;
+  padding-bottom: 12rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("../assets/backgrounds/c_image.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: contain;
+}
+@media (min-width: 768px) {
+  section.page-section#contact_us {
+    padding-top: 17rem;
+    padding-bottom: 12.5rem;
+  }
 }
