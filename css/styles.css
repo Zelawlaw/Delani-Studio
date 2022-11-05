@@ -69,6 +69,8 @@ section.page-section#services {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  
+
 }
 
 section#contact_us {
@@ -96,7 +98,10 @@ form#contactForm {
 }
 
 .maxheight {
-  height: 78%;
+  height: 60%;
+}
+.fullheight {
+  height: 100%;
 }
 
 .padding2rem {
@@ -127,6 +132,18 @@ form#contactForm ::-webkit-input-placeholder {
 form#contactForm :-moz-placeholder {
   color: #fff;
   font-size: 1rem;
+}
+
+button.btn {
+  font-size: 1.5rem;
+  color: #fff;
+  border-style: solid;
+  border-color: #fff;
+ 
+}
+
+#forbutton {
+  padding-top: 2rem;
 }
 
 @media (min-width: 768px) {

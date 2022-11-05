@@ -38,7 +38,7 @@
       </p>
 
       <div id="mouse">
-        <img src="assets/mouse_click.png" />
+       <a href="#about_us"> <img src="assets/mouse_click.png" /> </a>
       </div>
     </header>
     <section class="page-section" id="about_us">
@@ -189,7 +189,7 @@
         <div class="text-center">
           <h2 class="section-heading text-uppercase">Contact Us</h2>
         </div>
-        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+        <form id="contactForm">
           <div class="row align-items-stretch mb-5">
             <div class="form-group col-md-6 padding2rem">
               <!-- Name input-->
@@ -222,10 +222,10 @@
             </div>
           </div>
           <div class="col-md-12 maxheight .padding2rem">
-            <div class="form-group form-group-textarea mb-md-0 maxheight">
+            <div class="form-group form-group-textarea mb-md-0 fullheight">
               <!-- Message input-->
               <textarea
-                class="form-control maxheight"
+                class="form-control fullheight"
                 id="message"
                 placeholder="Your Message..."
                 data-sb-validations="required"
@@ -235,18 +235,38 @@
               </div>
             </div>
           </div>
-
+        
+          <div class="col-md-4" ></div>
           <div class="d-none" id="submitErrorMessage">
             <div class="text-center text-danger mb-3">
               Error sending message!
             </div>
           </div>
+          <div class="col-md-4" ></div>
+          <div class="col-md-12" id="forbutton">
+            <button type="submit" class="btn">Submit</button>
+          </div>
+          <div class="col-md-4" ></div>
+          </div>
         </form>
       </div>
     </section>
-    <section class="page-section" id="socials">
-      <div class="container"></div>
-    </section>
+    
+      <footer>
+        <img src="assets/social_icons/twitter.png" alt="twitter" />
+        <img src="assets/social_icons/dribble.png" alt="dribble" />
+        <img src="assets/social_icons/facebook.png" alt="facebook" />
+        <img src="assets/social_icons/g_plus.png" alt="g_plus" />
+        <img src="assets/social_icons/skype.png" alt="skype" />
+        <img src="assets/social_icons/stumble_upon.png" alt="stumble_upon" />
+        <img src="assets/social_icons/behance.png" alt="behance" />
+        <img src="assets/social_icons/pinterest.png" alt="pinterest" />
+        <img src="assets/social_icons/flickr.png" alt="flickr" />
+        <!-- <img src="assets/social_icons/you_tube.png" alt=""> -->
+        <p>DELANI STUDIO</p>
+        <p>2019</p>
+      </footer>
+   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/main.js"></script>
   </body>
