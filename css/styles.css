@@ -1,16 +1,15 @@
-
 body {
   text-align: center;
   color: black;
-  font-family: "Trirong",sans-serif;
+  font-family: "Trirong", sans-serif;
   font-size: 1.5rem;
 }
 .text-uppercase {
   text-transform: uppercase !important;
 }
 header.masthead {
-  padding-top: 10.5rem;
-  padding-bottom: 6rem;
+  padding-top: 16rem;
+
   text-align: center;
   color: #fff;
   background-image: url("../assets/backgrounds/h_img.jpg");
@@ -22,55 +21,45 @@ header.masthead {
 header.masthead .masthead-subheading {
   font-size: 0.5rem;
   line-height: 1rem;
-
-  font-family: "Montserrat",sans-serif;
+  padding: 2px;
+  font-family: "Montserrat", sans-serif;
 }
 header.masthead .masthead-heading {
   font-size: 3.25rem;
   font-weight: 700;
   line-height: 3.25rem;
-  
-  font-family: "Trirong",sans-serif;}
+  padding: 2px;
+  margin: 5px;
+  font-family: "Trirong", sans-serif;
+}
 
-@media (min-width: 768px) {
-  header.masthead {
-    padding-top: 17rem;
-    padding-bottom: 12.5rem;
-  }
-  header.masthead .masthead-subheading {
-    font-size: 1.0rem;
-    line-height: 2.25rem;
-    margin-top:1rem;
-    margin-bottom: 1rem;
-  }
-  header.masthead .masthead-heading {
-  
-    font-size: 2.5rem;
-    font-weight: 700;
-    line-height: 4.5rem;
-    
-  }
-
+#mouse {
+  padding-top: 22px;
+  margin-top: 10%;
+  padding-bottom: 30px;
+  /* animation-iteration-count: infinite; */
 }
 
 .page-section {
   padding: 6rem 0;
 }
-.page-section h2.section-heading, .page-section .section-heading.h2 {
+.page-section h2.section-heading,
+.page-section .section-heading.h2 {
   font-size: 2.5rem;
   margin-top: 0;
   margin-bottom: 1rem;
 }
-.page-section h3.section-subheading, .page-section .section-subheading.h3 {
+.page-section h3.section-subheading,
+.page-section .section-subheading.h3 {
   font-size: 1rem;
   font-weight: 400;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin-bottom: 4rem;
 }
 
-
-
-section.page-section#services{
+section.page-section#services {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
@@ -79,16 +68,10 @@ section.page-section#services{
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  background-size: contain;
+  background-size: cover;
 }
-@media (min-width: 768px) {
-  section.page-section#services {
-    padding-top: 17rem;
-    padding-bottom: 12.5rem;
-   
-  }
-}
-section#contact_us{
+
+section#contact_us {
   padding-top: 10.5rem;
   padding-bottom: 12rem;
   text-align: center;
@@ -100,51 +83,70 @@ section#contact_us{
   background-size: cover;
 }
 
-section#contact_us.page-section{
-margin:2rem;
-padding:2rem;
-height:50rem; 
+section#contact_us.page-section {
+  margin: 2rem;
+  padding: 2rem;
+  height: 50rem;
 }
-div#contactcontainer.container{
-  height:100%;
+div#contactcontainer.container {
+  height: 100%;
 }
-form#contactForm{
-  height:100%;
-  
+form#contactForm {
+  height: 100%;
 }
 
-.maxheight{
-
+.maxheight {
   height: 78%;
 }
 
-.padding2rem{
-  padding:2rem;
+.padding2rem {
+  padding: 2rem;
 }
-.padding2rembuttop{
-  padding-left:2rem;
-  padding-right:2rem;
+.padding2rembuttop {
+  padding-left: 2rem;
+  padding-right: 2rem;
   padding-bottom: 2rem;
 }
 
-#message ,#name ,#email  {
-  background-color:transparent;
-  font-size:1.5rem;
-  color:#fff;
+#message,
+#name,
+#email {
+  background-color: transparent;
+  font-size: 1.5rem;
+  color: #fff;
 }
-form#contactForm :-ms-input-placeholder  {
+form#contactForm :-ms-input-placeholder {
   font-weight: bold;
-  color:#fff;
-  font-size:1rem;
-
-  
+  color: #fff;
+  font-size: 1rem;
 }
-form#contactForm ::-webkit-input-placeholder{
-  color:#fff;
-  font-size:1rem;
+form#contactForm ::-webkit-input-placeholder {
+  color: #fff;
+  font-size: 1rem;
 }
 form#contactForm :-moz-placeholder {
-  color:#fff;
-  font-size:1rem;
+  color: #fff;
+  font-size: 1rem;
 }
 
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 17%;
+    padding-bottom: 12.5rem;
+  }
+  header.masthead .masthead-subheading {
+    font-size: 1rem;
+    line-height: 2.25rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  header.masthead .masthead-heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+  }
+  section.page-section#services {
+    padding-top: 17rem;
+    padding-bottom: 12.5rem;
+  }
+}

@@ -30,13 +30,15 @@
   </head>
   <body>
     <header class="masthead">
-      <div class="container">
-        <img src="/assets/logo/logo.png" />
-        <p class="masthead-heading text-uppercase">Welcome</p>
-        <p class="masthead-heading text-uppercase">to delani studio</p>
-        <p class="masthead-subheading text-uppercase">
-          amazing people are making amazing designs in a fun environment
-        </p>
+      <img src="/assets/logo/logo.png" />
+      <p class="masthead-heading text-uppercase">Welcome</p>
+      <p class="masthead-heading text-uppercase">to delani studio</p>
+      <p class="masthead-subheading text-uppercase">
+        amazing people are making amazing designs in a fun environment
+      </p>
+
+      <div id="mouse">
+        <img src="assets/mouse_click.png" />
       </div>
     </header>
     <section class="page-section" id="about_us">
@@ -44,10 +46,15 @@
         <p>ABOUT US</p>
         <p>
           When you work with us, you are part of a team of commited
-          collaborators. All aspects of our software development process are
-          intergrated , interactive and agile. Our approach unifies design,
-          development and product managent to create exceptional products. We
-          start each project by understanding your business goals, the users
+          collaborators.
+        </p>
+        <p>
+          All aspects of our software development process are intergrated ,
+          interactive and agile. Our approach unifies design, development and
+          product managent to create exceptional products.
+        </p>
+        <p>
+          We start each project by understanding your business goals, the users
           needs and the product requirements. we help translate them into active
           and elegant solutions.
         </p>
@@ -58,10 +65,12 @@
         <p>SERVICES</p>
         <p>
           Before we sign a contract or write a line of code, our team will spend
-          the neccessary time needed to understand your product vission. The
-          outcome of the scoping session a proposal or high-level statement of
-          work. based on your requirements, we can provide a complete offering
-          or just the piece you need.
+          the neccessary time needed to understand your product vision.
+        </p>
+        <p>
+          The outcome of the scoping session a proposal or high-level statement
+          of work. based on your requirements, we can provide a complete
+          offering or just the piece you need.
         </p>
       </div>
     </section>
@@ -71,14 +80,17 @@
           <h2 class="section-heading text-uppercase">what we do</h2>
         </div>
         <div class="row text-center">
-          <div class="col-md-4 col-sm-4 padding2rem">
+          <div class="col-md-4 col-sm-12 padding2rem">
             <img src="assets/services_icons/design_icon.png" />
+            <h4 class="my-3">DESIGN</h4>
           </div>
-          <div class="col-md-4 col-sm-4 padding2rem">
+          <div class="col-md-4 col-sm-12 padding2rem">
             <img src="assets/services_icons/dev_icon.png" />
+            <h4 class="my-3">DEVELOPMENT</h4>
           </div>
-          <div class="col-md-4 col-sm-4 padding2rem">
+          <div class="col-md-4 col-sm-12 padding2rem">
             <img src="assets/services_icons/product_icon.png" />
+            <h4 class="my-3">PROJECT MANAGEMENT</h4>
           </div>
         </div>
       </div>
@@ -92,9 +104,8 @@
           <div class="col-lg-3 col-sm-6 mb-4">
             <!-- Portfolio item 1-->
             <div class="portfolio-item">
-         
               <img
-               class="img-fluid"
+                class="img-fluid"
                 src="assets/portfolio/work4.jpg"
                 alt="..."
               />
@@ -103,7 +114,6 @@
           <div class="col-lg-3 col-sm-6 mb-4">
             <!-- Portfolio item 2-->
             <div class="portfolio-item">
-          
               <img
                 class="img-fluid"
                 src="assets/portfolio/work3.jpg"
@@ -114,7 +124,6 @@
           <div class="col-lg-3 col-sm-6 mb-4">
             <!-- Portfolio item 3-->
             <div class="portfolio-item">
-          
               <img
                 class="img-fluid"
                 src="assets/portfolio/work2.jpg"
@@ -125,7 +134,6 @@
           <div class="col-lg-3 col-sm-6 mb-4">
             <!-- Portfolio item 4-->
             <div class="portfolio-item">
-           
               <img
                 class="img-fluid"
                 src="assets/portfolio/work1.jpg"
@@ -136,7 +144,6 @@
           <div class="col-lg-3 col-sm-6 mb-4">
             <!-- Portfolio item 5-->
             <div class="portfolio-item">
-          
               <img
                 class="img-fluid"
                 src="assets/portfolio/work5.jpg"
@@ -147,7 +154,6 @@
           <div class="col-lg-3 col-sm-6 mb-4">
             <!-- Portfolio item 6-->
             <div class="portfolio-item">
-            
               <img
                 class="img-fluid"
                 src="assets/portfolio/work6.jpg"
@@ -158,7 +164,6 @@
           <div class="col-lg-3 col-sm-6 mb-4">
             <!-- Portfolio item 7-->
             <div class="portfolio-item">
-           
               <img
                 class="img-fluid"
                 src="assets/portfolio/work7.jpg"
@@ -169,7 +174,6 @@
           <div class="col-lg-3 col-sm-6 mb-4">
             <!-- Portfolio item 8-->
             <div class="portfolio-item">
-           
               <img
                 class="img-fluid"
                 src="assets/portfolio/work8.jpg"
@@ -184,36 +188,60 @@
       <div class="container" id="contactcontainer">
         <div class="text-center">
           <h2 class="section-heading text-uppercase">Contact Us</h2>
-          
-      </div>
-      <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+        </div>
+        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
           <div class="row align-items-stretch mb-5">
-              
-                  <div class="form-group col-md-6 padding2rem">
-                      <!-- Name input-->
-                      <input class="form-control" id="name" type="text" placeholder="Your Name..." data-sb-validations="required" />
-                      <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                  </div>
-                  <div class="form-group col-md-6 padding2rem">
-                      <!-- Email address input-->
-                      <input class="form-control" id="email" type="email" placeholder="Your Email..." data-sb-validations="required,email" />
-                      <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                      <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                  </div>
-                
+            <div class="form-group col-md-6 padding2rem">
+              <!-- Name input-->
+              <input
+                class="form-control"
+                id="name"
+                type="text"
+                placeholder="Your Name..."
+                data-sb-validations="required"
+              />
+              <div class="invalid-feedback" data-sb-feedback="name:required">
+                A name is required.
               </div>
-              <div class="col-md-12 maxheight .padding2rem" >
-                  <div class="form-group form-group-textarea mb-md-0 maxheight">
-                      <!-- Message input-->
-                      <textarea class="form-control maxheight" id="message" placeholder="Your Message..." data-sb-validations="required"></textarea>
-                      <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                  </div>
+            </div>
+            <div class="form-group col-md-6 padding2rem">
+              <!-- Email address input-->
+              <input
+                class="form-control"
+                id="email"
+                type="email"
+                placeholder="Your Email..."
+                data-sb-validations="required,email"
+              />
+              <div class="invalid-feedback" data-sb-feedback="email:required">
+                An email is required.
               </div>
-          
-    
-          <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-          
-          </form>
+              <div class="invalid-feedback" data-sb-feedback="email:email">
+                Email is not valid.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 maxheight .padding2rem">
+            <div class="form-group form-group-textarea mb-md-0 maxheight">
+              <!-- Message input-->
+              <textarea
+                class="form-control maxheight"
+                id="message"
+                placeholder="Your Message..."
+                data-sb-validations="required"
+              ></textarea>
+              <div class="invalid-feedback" data-sb-feedback="message:required">
+                A message is required.
+              </div>
+            </div>
+          </div>
+
+          <div class="d-none" id="submitErrorMessage">
+            <div class="text-center text-danger mb-3">
+              Error sending message!
+            </div>
+          </div>
+        </form>
       </div>
     </section>
     <section class="page-section" id="socials">
