@@ -73,6 +73,13 @@ section.page-section#services {
 
 }
 
+section#what_we_do.page-section {
+  padding-top:10rem;
+height: 20rem;
+padding-bottom: 10rem;
+
+}
+
 section#contact_us {
   padding-top: 10.5rem;
   padding-bottom: 12rem;
@@ -145,6 +152,10 @@ button.btn {
 #forbutton {
   padding-top: 2rem;
 }
+#projdesc, #devdesc, #desdesc {
+  display: none;
+}
+
 
 @media (min-width: 768px) {
   header.masthead {
