@@ -71,13 +71,13 @@
           <h2 class="section-heading text-uppercase">what we do</h2>
         </div>
         <div class="row text-center">
-          <div class="col-md-4 col-sm-4">
+          <div class="col-md-4 col-sm-4 padding2rem">
             <img src="assets/services_icons/design_icon.png" />
           </div>
-          <div class="col-md-4 col-sm-4">
+          <div class="col-md-4 col-sm-4 padding2rem">
             <img src="assets/services_icons/dev_icon.png" />
           </div>
-          <div class="col-md-4 col-sm-4">
+          <div class="col-md-4 col-sm-4 padding2rem">
             <img src="assets/services_icons/product_icon.png" />
           </div>
         </div>
@@ -92,14 +92,10 @@
           <div class="col-lg-3 col-sm-6 mb-4">
             <!-- Portfolio item 1-->
             <div class="portfolio-item">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
+         
               <img
                class="img-fluid"
-                src="assets/portfolio/work1.jpg"
+                src="assets/portfolio/work4.jpg"
                 alt="..."
               />
             </div>
@@ -107,26 +103,7 @@
           <div class="col-lg-3 col-sm-6 mb-4">
             <!-- Portfolio item 2-->
             <div class="portfolio-item">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img
-                class="img-fluid"
-                src="assets/portfolio/work2.jpg"
-                alt="..."
-              />
-            </div>
-          </div>
-          <div class="col-lg-3 col-sm-6 mb-4">
-            <!-- Portfolio item 3-->
-            <div class="portfolio-item">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
+          
               <img
                 class="img-fluid"
                 src="assets/portfolio/work3.jpg"
@@ -135,16 +112,23 @@
             </div>
           </div>
           <div class="col-lg-3 col-sm-6 mb-4">
-            <!-- Portfolio item 4-->
+            <!-- Portfolio item 3-->
             <div class="portfolio-item">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
+          
               <img
                 class="img-fluid"
-                src="assets/portfolio/work4.jpg"
+                src="assets/portfolio/work2.jpg"
+                alt="..."
+              />
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-4">
+            <!-- Portfolio item 4-->
+            <div class="portfolio-item">
+           
+              <img
+                class="img-fluid"
+                src="assets/portfolio/work1.jpg"
                 alt="..."
               />
             </div>
@@ -152,11 +136,7 @@
           <div class="col-lg-3 col-sm-6 mb-4">
             <!-- Portfolio item 5-->
             <div class="portfolio-item">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
+          
               <img
                 class="img-fluid"
                 src="assets/portfolio/work5.jpg"
@@ -167,11 +147,7 @@
           <div class="col-lg-3 col-sm-6 mb-4">
             <!-- Portfolio item 6-->
             <div class="portfolio-item">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
+            
               <img
                 class="img-fluid"
                 src="assets/portfolio/work6.jpg"
@@ -182,11 +158,7 @@
           <div class="col-lg-3 col-sm-6 mb-4">
             <!-- Portfolio item 7-->
             <div class="portfolio-item">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
+           
               <img
                 class="img-fluid"
                 src="assets/portfolio/work7.jpg"
@@ -197,11 +169,7 @@
           <div class="col-lg-3 col-sm-6 mb-4">
             <!-- Portfolio item 8-->
             <div class="portfolio-item">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
-                </div>
-              </div>
+           
               <img
                 class="img-fluid"
                 src="assets/portfolio/work8.jpg"
@@ -213,7 +181,40 @@
       </div>
     </section>
     <section class="page-section" id="contact_us">
-      <div class="container"></div>
+      <div class="container" id="contactcontainer">
+        <div class="text-center">
+          <h2 class="section-heading text-uppercase">Contact Us</h2>
+          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+      </div>
+      <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+          <div class="row align-items-stretch mb-5">
+              
+                  <div class="form-group col-md-6 padding2rem">
+                      <!-- Name input-->
+                      <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
+                      <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                  </div>
+                  <div class="form-group col-md-6 padding2rem">
+                      <!-- Email address input-->
+                      <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
+                      <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                      <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                  </div>
+                
+              </div>
+              <div class="col-md-12 maxheight .padding2rem" >
+                  <div class="form-group form-group-textarea mb-md-0 maxheight">
+                      <!-- Message input-->
+                      <textarea class="form-control maxheight" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
+                      <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                  </div>
+              </div>
+          
+    
+          <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+          
+          </form>
+      </div>
     </section>
     <section class="page-section" id="socials">
       <div class="container"></div>

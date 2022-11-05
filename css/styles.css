@@ -88,7 +88,7 @@ section.page-section#services{
    
   }
 }
-section.page-section#contact_us{
+section#contact_us{
   padding-top: 10.5rem;
   padding-bottom: 12rem;
   text-align: center;
@@ -99,9 +99,31 @@ section.page-section#contact_us{
   background-position: center center;
   background-size: cover;
 }
-@media (min-width: 768px) {
-  section.page-section#contact_us {
-    padding-top: 17rem;
-    padding-bottom: 12.5rem;
-  }
+
+section#contact_us.page-section{
+margin:2rem;
+padding:2rem;
+height:50rem; 
 }
+div#contactcontainer.container{
+  height:100%;
+}
+form#contactForm{
+  height:100%;
+}
+
+.maxheight{
+
+  height: 78%;
+}
+
+.padding2rem{
+  padding:2rem;
+}
+.padding2rembuttop{
+  padding-left:2rem;
+  padding-right:2rem;
+  padding-bottom: 2rem;
+}
+
+
