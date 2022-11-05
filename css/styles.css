@@ -110,6 +110,7 @@ div#contactcontainer.container{
 }
 form#contactForm{
   height:100%;
+  
 }
 
 .maxheight{
@@ -126,4 +127,24 @@ form#contactForm{
   padding-bottom: 2rem;
 }
 
+#message ,#name ,#email  {
+  background-color:transparent;
+  font-size:1.5rem;
+  color:#fff;
+}
+form#contactForm :-ms-input-placeholder  {
+  font-weight: bold;
+  color:#fff;
+  font-size:1rem;
+
+  
+}
+form#contactForm ::-webkit-input-placeholder{
+  color:#fff;
+  font-size:1rem;
+}
+form#contactForm :-moz-placeholder {
+  color:#fff;
+  font-size:1rem;
+}
 
