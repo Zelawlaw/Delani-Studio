@@ -205,5 +205,7 @@ button.btn {
 
   form#contactForm {
     height:90%;
+    padding-left:15%;
+    padding-right:15%;
   }
 }
