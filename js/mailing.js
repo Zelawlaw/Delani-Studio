@@ -14,8 +14,10 @@ $(document).ready(()=>{
     alert("Email format is incorrect! Kindly use format abc@def.ghi");
   }
   else{
-   alert("send email");
-
+   alert("Feeback received");
+   $("#name").val("");
+   $("#email").val("");
+   $("#message").val("");
   }
   e.preventDefault();
  });
