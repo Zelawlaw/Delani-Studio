@@ -14,19 +14,19 @@ $("#design").click(()=>{
  
   $("#desimg").toggle();
   $("#desdesc").toggle();
-  varyheight();
+//  varyheight();
 });
 $("#development").click(()=>{
  
   $("#devimg").toggle();
   $("#devdesc").toggle();
-  varyheight();
+//  varyheight();
 });
 $("#projmanagement").click(()=>{
  
   $("#projimg").toggle();
   $("#projdesc").toggle();
-  varyheight();
+ // varyheight();
 });
   
 }

@@ -4,6 +4,11 @@ body {
   font-family: "Trirong", sans-serif;
   font-size: 1.5rem;
 }
+.container{
+  margin-left:0rem;
+  margin-right:1rem;
+  max-width:100%;
+}
 .text-uppercase {
   text-transform: uppercase !important;
 }
@@ -76,11 +81,11 @@ section.page-section#services {
 section#what_we_do.page-section {
   padding-top:10rem;
 height: auto;
-padding-bottom: 20%;
+padding-bottom: 2rem;
 
 }
 section#portfolio.page-section{
-  padding-top:4rem;
+  padding:2rem;
 }
 
 section#contact_us {
@@ -181,12 +186,12 @@ button.btn {
     padding-bottom: 12.5rem;
   }
   section#what_we_do.page-section {
-    padding-top:10rem;
-  height: 20rem;
-  padding-bottom: 10rem;
+    padding-top:4rem;
+  height: auto;
+  padding-bottom: 4rem;
   
   }
   section#portfolio.page-section{
-    padding-top:10rem;
+    padding:2rem;
   }
 }
