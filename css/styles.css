@@ -75,9 +75,12 @@ section.page-section#services {
 
 section#what_we_do.page-section {
   padding-top:10rem;
-height: 20rem;
-padding-bottom: 10rem;
+height: auto;
+padding-bottom: 20%;
 
+}
+section#portfolio.page-section{
+  padding-top:4rem;
 }
 
 section#contact_us {
@@ -176,5 +179,14 @@ button.btn {
   section.page-section#services {
     padding-top: 17rem;
     padding-bottom: 12.5rem;
+  }
+  section#what_we_do.page-section {
+    padding-top:10rem;
+  height: 20rem;
+  padding-bottom: 10rem;
+  
+  }
+  section#portfolio.page-section{
+    padding-top:10rem;
   }
 }

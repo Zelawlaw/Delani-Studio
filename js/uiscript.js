@@ -3,10 +3,10 @@ $(document).ready(()=>{
   const varyheight = ()=>{
     if ( $('#desdesc').css('display') == 'none' && $('#devdesc').css('display') == 'none' && $('#projdesc').css('display') == 'none' )
      {
-      $("section#what_we_do.page-section").css("padding-bottom",'20rem');
+      $("section#what_we_do.page-section").css("padding-bottom",'10rem');
      }
      else {
-      $("section#what_we_do.page-section").css("padding-bottom",'40rem');
+      $("section#what_we_do.page-section").css("padding-bottom",'20rem');
      }
   };
 
