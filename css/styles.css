@@ -80,12 +80,60 @@ section.page-section#services {
 
 }
 
+
+
 section#what_we_do.page-section {
   padding-top:10rem;
 height: auto;
 padding-bottom: 2rem;
 
 }
+.gallery-item {
+  height:100%;
+  width: 100%;
+  
+ 
+  position: relative;
+  
+}
+
+
+
+
+
+
+
+.img-title {
+  
+  display: none;
+  color: black;
+  width: 100%;
+  height: 100%;
+  background-color:rgba(255, 255, 255, 0.456);
+  position:absolute;
+  top: 0px;
+  left: 0px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 50%;
+  padding-top: 30%;
+  font-family: 'Delius Swash Caps', cursive;
+  
+  
+}
+
+  .img-title h5 {
+      position: absolute;
+      color:black;
+     
+      top: 33%;
+      width: 100%;
+      text-align: center;
+      font-size: 2rem;
+  font-weight: bold;
+  font-family: "Montserrat", -apple-system;
+  }
+
 section#portfolio.page-section{
   padding:2rem;
 }
@@ -198,6 +246,10 @@ button.btn {
   padding-bottom: 4rem;
   
   }
+  .img-title h5 {
+    font-size: 3rem;
+  }
+
   section#portfolio.page-section{
     padding-left:5%;
     padding-right:5%;
