@@ -4,11 +4,10 @@ body {
   font-family: "Trirong", sans-serif;
   font-size: 1.5rem;
 }
-.container{
-  margin-left:0rem;
-  margin-right:1rem;
-  max-width:100%;
-
+.container {
+  margin-left: 0rem;
+  margin-right: 1rem;
+  max-width: 100%;
 }
 
 .text-uppercase {
@@ -67,8 +66,8 @@ header.masthead .masthead-heading {
 section.page-section#services {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
-  margin-left:1rem;
-  margin-right:1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
   text-align: center;
   color: #fff;
   background-image: url("../assets/backgrounds/s_image.jpg");
@@ -76,69 +75,53 @@ section.page-section#services {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
-  
-
 }
-
-
 
 section#what_we_do.page-section {
-  padding-top:10rem;
-height: auto;
-padding-bottom: 2rem;
-
+  padding-top: 10rem;
+  height: auto;
+  padding-bottom: 2rem;
 }
 .gallery-item {
-  height:100%;
+  height: 100%;
   width: 100%;
-  
- 
+
   position: relative;
-  
 }
 
-
-
-
-
-
-
 .img-title {
-  
   display: none;
   color: black;
   width: 100%;
   height: 100%;
-  background-color:rgba(255, 255, 255, 0.456);
-  position:absolute;
+  background-color: rgba(255, 255, 255, 0.456);
+  position: absolute;
   top: 0px;
   left: 0px;
   font-weight: bold;
   text-align: center;
   font-size: 50%;
   padding-top: 30%;
-  font-family: 'Delius Swash Caps', cursive;
-  
-  
+  font-family: "Delius Swash Caps", cursive;
 }
 
-  .img-title h5 {
-      position: absolute;
-      color:black;
-     
-      top: 33%;
-      width: 100%;
-      text-align: center;
-      font-size: 2rem;
+.img-title h5 {
+  position: absolute;
+  color: black;
+
+  top: 33%;
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
   font-weight: bold;
   font-family: "Montserrat", -apple-system;
-  }
+}
 
-section#portfolio.page-section{
-  padding:2rem;
+section#portfolio.page-section {
+  padding: 2rem;
 }
 #portfolioheader {
- padding-bottom: 2rem;
+  padding-bottom: 2rem;
 }
 
 section#contact_us {
@@ -207,22 +190,22 @@ button.btn {
   color: #fff;
   border-style: solid;
   border-color: #fff;
- 
 }
 
 #forbutton {
   padding-top: 2rem;
 }
-#projdesc, #devdesc, #desdesc {
+#projdesc,
+#devdesc,
+#desdesc {
   display: none;
 }
 
-
 @media (min-width: 768px) {
   header.masthead {
-    margin-top:0rem;
+    margin-top: 0rem;
     padding-top: 25%;
-    height:100%;
+    height: 100%;
     padding-bottom: 1.5rem;
   }
   header.masthead .masthead-subheading {
@@ -241,23 +224,22 @@ button.btn {
     padding-bottom: 12.5rem;
   }
   section#what_we_do.page-section {
-    padding-top:4rem;
-  height: auto;
-  padding-bottom: 4rem;
-  
+    padding-top: 4rem;
+    height: auto;
+    padding-bottom: 4rem;
   }
   .img-title h5 {
     font-size: 3rem;
   }
 
-  section#portfolio.page-section{
-    padding-left:5%;
-    padding-right:5%;
+  section#portfolio.page-section {
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
   form#contactForm {
-    height:90%;
-    padding-left:15%;
-    padding-right:15%;
+    height: 90%;
+    padding-left: 15%;
+    padding-right: 15%;
   }
 }
