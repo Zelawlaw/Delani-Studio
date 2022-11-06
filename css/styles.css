@@ -8,7 +8,9 @@ body {
   margin-left:0rem;
   margin-right:1rem;
   max-width:100%;
+
 }
+
 .text-uppercase {
   text-transform: uppercase !important;
 }
@@ -58,15 +60,15 @@ header.masthead .masthead-heading {
 .page-section .section-subheading.h3 {
   font-size: 1rem;
   font-weight: 400;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Montserrat", -apple-system;
   margin-bottom: 4rem;
 }
 
 section.page-section#services {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
+  margin-left:1rem;
+  margin-right:1rem;
   text-align: center;
   color: #fff;
   background-image: url("../assets/backgrounds/s_image.jpg");
@@ -86,6 +88,9 @@ padding-bottom: 2rem;
 }
 section#portfolio.page-section{
   padding:2rem;
+}
+#portfolioheader {
+ padding-bottom: 2rem;
 }
 
 section#contact_us {
@@ -194,7 +199,8 @@ button.btn {
   
   }
   section#portfolio.page-section{
-    padding:2rem;
+    padding-left:5%;
+    padding-right:5%;
   }
 
   form#contactForm {
